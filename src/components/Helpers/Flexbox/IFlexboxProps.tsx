@@ -1,0 +1,25 @@
+interface IFlexboxProps {
+    alignItems?: | 'stretch' | 'center' | 'flex-start' | 'flex-end' | 'baseline' | 'initial' | 'inherit',
+    children?: any,
+    className?: string,
+    container?: boolean,
+    flex?: string,
+    flexBasis?: string,
+    flexDirection?: 'row' | 'column',
+    flexGrow?: number,
+    flexShrink?: number,
+    flexWrap?: 'wrap' | 'nowrap' | 'wrap-reverse',
+    gap?: string,
+    height?: string,
+    horizontalFill?: boolean,
+    justifyContent?: | 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'initial' | 'inherit',
+    margin?: string,
+    maxHeight?: string,
+    maxWidth?: string,
+    padding?: string,
+    verticalFill?: boolean,
+    width?: string,
+    withBorders?: boolean,
+}
+
+export default IFlexboxProps;
